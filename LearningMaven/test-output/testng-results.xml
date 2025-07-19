@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-18T21:53:59 EDT" name="Default suite" finished-at="2025-07-18T21:53:59 EDT" duration-ms="61">
+  <suite started-at="2025-07-18T22:59:11 EDT" name="Regression Suite" finished-at="2025-07-18T22:59:11 EDT" duration-ms="71">
     <groups>
     </groups>
-    <test started-at="2025-07-18T21:53:59 EDT" name="Default test" finished-at="2025-07-18T21:53:59 EDT" duration-ms="61">
+    <test started-at="2025-07-18T22:59:11 EDT" name="Test" finished-at="2025-07-18T22:59:11 EDT" duration-ms="71">
       <class name="test.TestClass1">
-        <test-method signature="firstTest()[pri:0, instance:test.TestClass1@3023df74]" started-at="2025-07-18T21:53:59 EDT" name="firstTest" finished-at="2025-07-18T21:53:59 EDT" duration-ms="10" status="PASS">
+        <test-method signature="firstTest()[pri:0, instance:test.TestClass1@4d5d943d]" started-at="2025-07-18T22:59:11 EDT" name="firstTest" finished-at="2025-07-18T22:59:11 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
-        <test-method signature="secondTest()[pri:0, instance:test.TestClass1@3023df74]" started-at="2025-07-18T21:53:59 EDT" name="secondTest" finished-at="2025-07-18T21:53:59 EDT" duration-ms="2" status="PASS">
+        <test-method signature="secondTest()[pri:0, instance:test.TestClass1@4d5d943d]" started-at="2025-07-18T22:59:11 EDT" name="secondTest" finished-at="2025-07-18T22:59:11 EDT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTest -->
       </class> <!-- test.TestClass1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="test.TestClass3">
+        <test-method signature="webTest1()[pri:0, instance:test.TestClass3@34a3d150]" started-at="2025-07-18T22:59:11 EDT" name="webTest1" finished-at="2025-07-18T22:59:11 EDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest1 -->
+        <test-method signature="webTest2()[pri:0, instance:test.TestClass3@34a3d150]" started-at="2025-07-18T22:59:11 EDT" name="webTest2" finished-at="2025-07-18T22:59:11 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTest2 -->
+      </class> <!-- test.TestClass3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Regression Suite -->
 </testng-results>
