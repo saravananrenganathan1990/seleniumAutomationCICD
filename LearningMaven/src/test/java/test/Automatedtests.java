@@ -1,7 +1,5 @@
 package test;
 
-import static org.testng.Assert.assertEquals;
-
 import java.time.Duration;
 import java.util.Iterator;
 import java.util.List;
